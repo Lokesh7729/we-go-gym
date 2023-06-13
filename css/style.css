@@ -1,0 +1,129 @@
+body {
+        margin: 0px;
+        padding: 0px;
+        background: url('../img/background\ \(1\).jpg');
+
+        color: white;
+        font-family: 'Averia Libre', cursive;
+
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        font-size: 30px;
+        font-weight: bold;
+
+
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert(100%);
+        margin: auto;
+
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 34px;
+        font-size: 26px;
+    }
+
+    .img {
+        display: block;
+        margin: auto;
+    }
+
+    .mid {
+        /* border: 2px solid rgb(63, 126, 193); */
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+        /* border: 2px solid rgb(197, 131, 218); */
+        display: inline-block;
+        position: absolute;
+        right: 37px;
+        top: 30px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: #9e9e9e;
+        text-decoration-line: none;
+        padding: 30px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: overline;
+        color: violet;
+    }
+
+    .btn {
+        margin: 0px 5px;
+    background-color: #b29fcd;
+    color: white;
+    font-size: 20px;
+    padding: 1px 12px;
+    /* border: 2px solid rgb(177 97 171); */
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Averia Libre', cursive;
+    }
+
+    .btn:hover {
+        background-color: #a086c3;
+        color: rgb(0, 0, 0);
+    }
+
+    .gymname {
+        text-transform: uppercase;
+    }
+
+    .container {
+        border: 2px solid #b29fcd;
+        margin: 69px 80px;
+        padding: 34px 65px;
+        width: 33%;
+        border-radius: 17px;
+    }
+
+    .form-group input {
+        font-family: 'Averia Libre', cursive;
+        text-align: center;
+        display: block;
+        width: 400px;
+        border-radius: 10px;
+        border: 2px solid black;
+        margin: 4px auto;
+        font-size: 21px;
+        padding: 1px;
+        color: black;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    .container button{
+        display: block;
+    width: 64%;
+    margin: 15px auto;
+    }
